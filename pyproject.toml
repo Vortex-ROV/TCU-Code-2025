@@ -3,11 +3,17 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "TCU"
-version = "0.1.0"
+name = "vortex_ui"
+version = "1.0.0"
 
 dependencies = [
-
+    "pygame==2.6.1",
+    "PyQt5==5.15.11",
+    "PyQt5-Qt5==5.15.2",
+    "PyQt5-sip==12.15.0",
+    "pyserial",          # Added pyserial
+    "matplotlib"        # Added matplotlib
 ]
 
 [project.scripts]
+JoystickTest = "VortexController.__main__:JoystickTest"

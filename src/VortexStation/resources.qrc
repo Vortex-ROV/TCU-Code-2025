@@ -1,0 +1,73 @@
+<RCC>
+    <qresource prefix="/headerLeftButton">
+        <file>feather/align-justify.svg</file>
+    </qresource>
+    <qresource prefix="/headerRightButtons">
+        <file>feather/x.svg</file>
+        <file>feather/x-circle.svg</file>
+        <file>feather/x-octagon.svg</file>
+        <file>feather/x-square.svg</file>
+        <file>feather/minus.svg</file>
+        <file>feather/minus-circle.svg</file>
+        <file>feather/minus-square.svg</file>
+        <file>feather/maximize.svg</file>
+        <file>feather/maximize-2.svg</file>
+    </qresource>
+    <qresource prefix="/mainBodyLeftButtons">
+        <file>feather/camera.svg</file>
+        <file>feather/home.svg</file>
+        <file>feather/settings.svg</file>
+    </qresource>
+    <qresource prefix="/controllerImage">
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Inv 4k.png</file>
+    </qresource>
+    <qresource prefix="/controllerButtons">
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/A.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/B.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Down.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Left.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Right.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Up.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Home.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Bumper.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick All.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Click.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Down.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Left.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Left-Right.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Right.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Up.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Up-Down.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Trigger.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Menu.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Bumper.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick All.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Click.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Down.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Left.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Left-Right.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Right.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Up.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Up-Down.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Trigger.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Share.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/View.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/X.svg</file>
+        <file>Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Y.svg</file>
+    </qresource>
+    <qresource prefix="/circularGaugesLabels">
+        <file>feather/download.svg</file>
+        <file>feather/upload.svg</file>
+        <file>feather/arrow-up.svg</file>
+        <file>feather/arrow-down.svg</file>
+        <file>feather/arrow-left.svg</file>
+        <file>feather/arrow-right.svg</file>
+        <file>feather/refresh-ccw.svg</file>
+        <file>feather/refresh-cw.svg</file>
+        <file>feather/rotate-ccw.svg</file>
+        <file>feather/rotate-cw.svg</file>
+    </qresource>
+</RCC>
