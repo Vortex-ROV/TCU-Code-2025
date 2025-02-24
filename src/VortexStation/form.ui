@@ -1,0 +1,4553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>845</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color: #282A36;
+}
+
+QLabel{
+	
+	color: rgb(248, 248, 242);
+}
+
+QPushButton{
+	border-radius: 5px; 
+}
+
+QPushButton:hover { 
+	background-color: #FFB86C; /* Hover background color (darker green) */ 	
+	border-color: #FFB86C; /* Hover border color */ 
+} 
+
+
+</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="headerFrame">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="navigationButtonFrame">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="navigationButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/headerLeftButton/feather/align-justify.svg</normaloff>:/headerLeftButton/feather/align-justify.svg</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="headerTitleFrame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="tittleLabel">
+            <property name="font">
+             <font>
+              <pointsize>32</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>VortexUI</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="headerRightButtonsFrame">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="minimizeButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/headerRightButtons/feather/minus.svg</normaloff>:/headerRightButtons/feather/minus.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="maximizeButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/headerRightButtons/feather/maximize-2.svg</normaloff>:/headerRightButtons/feather/maximize-2.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="exitButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/headerRightButtons/feather/x.svg</normaloff>:/headerRightButtons/feather/x.svg</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="mainBodyFrame">
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ 
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:30px;
+	padding-bottom: 10px; 
+	padding-top: 10px; 
+	color: #F8F8F2; 
+	font-size: 15px; 
+} </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="mainBodyLeftButtonsFrame">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>0</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="homeButton">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{ 
+background-image: url(:/mainBodyLeftButtons/feather/home.svg); 
+}
+
+QPushButton{border-left: 3px solid #FFB86C;}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Home</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="cameraButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{ 
+background-image: url(:/mainBodyLeftButtons/feather/camera.svg); 
+} </string>
+            </property>
+            <property name="text">
+             <string>Camera</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>403</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="settingsButton">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{ 
+background-image: url(:/mainBodyLeftButtons/feather/settings.svg); 
+} </string>
+            </property>
+            <property name="text">
+             <string>Settings</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="mainBodyStackedWidget">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="homePage">
+          <property name="styleSheet">
+           <string notr="true">QScrollArea {
+        border: 2px solid #5e5e5e;
+        background-color: #f0f0f0;
+    }</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="homePageFrame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="homePageStackedWidgetFrame">
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+	background-color: #44475A;
+}
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_16">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QStackedWidget" name="homePageStackedWidget">
+                   <property name="currentIndex">
+                    <number>0</number>
+                   </property>
+                   <widget class="QWidget" name="mainHomePage"/>
+                   <widget class="QWidget" name="secondayHomePage"/>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="homePageIndicatorFrame">
+                <property name="minimumSize">
+                 <size>
+                  <width>200</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_3">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="gaugeFrame">
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_8">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                     <widget class="QFrame" name="fourThrustersFrame">
+                      <property name="minimumSize">
+                       <size>
+                        <width>150</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>150</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <widget class="QFrame" name="fourThrustersGauge">
+                       <property name="geometry">
+                        <rect>
+                         <x>10</x>
+                         <y>10</y>
+                         <width>130</width>
+                         <height>130</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:65px;
+	background-color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.749 rgba(68, 71, 90, 255), stop:0.750 rgba(255, 184, 108, 255));
+}
+</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                      <widget class="QFrame" name="circularBG">
+                       <property name="geometry">
+                        <rect>
+                         <x>10</x>
+                         <y>10</y>
+                         <width>130</width>
+                         <height>130</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:65px;
+	background-color: rgba(77, 77, 127, 100);
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                      <widget class="QFrame" name="frame">
+                       <property name="geometry">
+                        <rect>
+                         <x>20</x>
+                         <y>20</y>
+                         <width>110</width>
+                         <height>110</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:55px;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QFrame" name="frame_2">
+                        <property name="geometry">
+                         <rect>
+                          <x>27</x>
+                          <y>27</y>
+                          <width>55</width>
+                          <height>55</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">border-radius:70px;
+</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_13">
+                         <property name="spacing">
+                          <number>0</number>
+                         </property>
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                          <widget class="QLabel" name="fourThrustersLabel">
+                           <property name="text">
+                            <string/>
+                           </property>
+                           <property name="scaledContents">
+                            <bool>true</bool>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </widget>
+                      <zorder>circularBG</zorder>
+                      <zorder>fourThrustersGauge</zorder>
+                      <zorder>frame</zorder>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                     <widget class="QFrame" name="upDownThrustersFrame">
+                      <property name="minimumSize">
+                       <size>
+                        <width>150</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>150</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <widget class="QFrame" name="upDownThrustersGauge">
+                       <property name="geometry">
+                        <rect>
+                         <x>10</x>
+                         <y>10</y>
+                         <width>130</width>
+                         <height>130</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:65px;
+	background-color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.749 rgba(68, 71, 90, 255), stop:0.750 rgba(255, 184, 108, 255));
+}
+</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                      <widget class="QFrame" name="frame_7">
+                       <property name="geometry">
+                        <rect>
+                         <x>20</x>
+                         <y>20</y>
+                         <width>110</width>
+                         <height>110</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:55px;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QFrame" name="frame_9">
+                        <property name="geometry">
+                         <rect>
+                          <x>27</x>
+                          <y>27</y>
+                          <width>55</width>
+                          <height>55</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">border-radius:70px;
+</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_17">
+                         <property name="spacing">
+                          <number>0</number>
+                         </property>
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                          <widget class="QLabel" name="upDownThrustersLabel">
+                           <property name="text">
+                            <string/>
+                           </property>
+                           <property name="scaledContents">
+                            <bool>true</bool>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </widget>
+                      <widget class="QFrame" name="circularBG_4">
+                       <property name="geometry">
+                        <rect>
+                         <x>10</x>
+                         <y>10</y>
+                         <width>130</width>
+                         <height>130</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:65px;
+	background-color: rgba(77, 77, 127, 100);
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                      <zorder>circularBG_4</zorder>
+                      <zorder>upDownThrustersGauge</zorder>
+                      <zorder>frame_7</zorder>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+                     <widget class="QFrame" name="servoFrame">
+                      <property name="minimumSize">
+                       <size>
+                        <width>150</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>150</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <widget class="QFrame" name="servoGauge">
+                       <property name="geometry">
+                        <rect>
+                         <x>10</x>
+                         <y>10</y>
+                         <width>130</width>
+                         <height>130</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:65px;
+	background-color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.749 rgba(68, 71, 90, 255), stop:0.750 rgba(255, 184, 108, 255));
+}
+</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                      <widget class="QFrame" name="circularBG_2">
+                       <property name="geometry">
+                        <rect>
+                         <x>10</x>
+                         <y>10</y>
+                         <width>130</width>
+                         <height>130</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>130</width>
+                         <height>130</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:65px;
+	background-color: rgba(77, 77, 127, 100);
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                      <widget class="QFrame" name="frame_3">
+                       <property name="geometry">
+                        <rect>
+                         <x>20</x>
+                         <y>20</y>
+                         <width>110</width>
+                         <height>110</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QFrame{
+	border-radius:55px;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QFrame" name="frame_4">
+                        <property name="geometry">
+                         <rect>
+                          <x>27</x>
+                          <y>27</y>
+                          <width>55</width>
+                          <height>55</height>
+                         </rect>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">border-radius:70px;
+</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_34">
+                         <property name="spacing">
+                          <number>0</number>
+                         </property>
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                          <widget class="QLabel" name="servoLabel">
+                           <property name="text">
+                            <string/>
+                           </property>
+                           <property name="scaledContents">
+                            <bool>true</bool>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </widget>
+                      <zorder>circularBG_2</zorder>
+                      <zorder>servoGauge</zorder>
+                      <zorder>frame_3</zorder>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="indicatorsFrame">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QFrame{
+	border-radius:5px;
+}
+
+</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_4">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QFrame" name="ledFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_42">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="ledLabel">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="text">
+                          <string>Led</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="rightGripperFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_43">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="gripperLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>RightGripper</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="leftGripperFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_44">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="leftGripperLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>LeftGripper</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="fluidSuctionFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_45">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="fluidSuctionLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>FluidSuction</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="floatingDebrisFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_48">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="floatingDebrisLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>FloatingDebris</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="altitudeHoldFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_49">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="altitudeHoldLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>AltitudeHold</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="stabilizeFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_10">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="stabilizeFrameLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="text">
+                          <string>Stabilize</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignBottom">
+                  <widget class="QFrame" name="sensorReadingFrame">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_9">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QFrame" name="gainFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QFrame{
+	background-color: #6272A4;
+}</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_53">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item alignment="Qt::AlignLeft">
+                        <widget class="QLabel" name="gainLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>Gain</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight">
+                        <widget class="QLabel" name="gainReadingLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>100</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="phSensorFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QFrame{
+	background-color: #6272A4;
+}</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_50">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item alignment="Qt::AlignLeft">
+                        <widget class="QLabel" name="phLael">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>PH</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight">
+                        <widget class="QLabel" name="phSensorReadingLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>7.1</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="headingFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QFrame{
+	background-color: #6272A4;
+}</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_52">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item alignment="Qt::AlignLeft">
+                        <widget class="QLabel" name="headingLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>Heading</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight">
+                        <widget class="QLabel" name="headingReadingLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>300</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="depthFrame">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QFrame{
+	background-color: #6272A4;
+}</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_51">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item alignment="Qt::AlignLeft">
+                        <widget class="QLabel" name="depthLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>Depth</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight">
+                        <widget class="QLabel" name="depthReadingLabel">
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>20</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="cameraPage">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_11">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="cameraPageFrame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="settingsPage">
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="settingsPageFrame">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QFrame" name="settingsPageControllerSettingsFrame">
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+	background-color: #44475A;
+}
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_19">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="controllerSettingsButton">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	image: url(:/controllerImage/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Inv 4k.png);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="settingsPageGeneralSettingsFrame">
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+	background-color: #44475A;
+}
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_18">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="generalSettingsButton">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>General Settings</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="controllerSettingsPage">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="controllerSettingsPageFrame">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="controllerSettingsSolidButtonsFrame">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_15">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QScrollArea" name="scrollArea">
+                   <property name="styleSheet">
+                    <string notr="true">QScrollArea {
+    border: 1px solid #282A36;
+}
+</string>
+                   </property>
+                   <property name="widgetResizable">
+                    <bool>true</bool>
+                   </property>
+                   <widget class="QWidget" name="scrollAreaWidgetContents">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>-464</y>
+                      <width>675</width>
+                      <height>2768</height>
+                     </rect>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_20">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="controllerSettingsSolidButtonsFrameInScrollArea">
+                       <property name="styleSheet">
+                        <string notr="true">QComboBox {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    color: #2c3e50; /* Text color */
+    font-size: 25px; /* Font size */
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #44475A; 
+    selection-background-color: #44475A;; /* Background color of selected item */
+}
+
+
+</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_7">
+                        <item>
+                         <widget class="QFrame" name="AButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_46">
+                           <item>
+                            <widget class="QLabel" name="AButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/A.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="AButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="BButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_22">
+                           <item>
+                            <widget class="QLabel" name="BButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/B.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="BButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="YButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_41">
+                           <item>
+                            <widget class="QLabel" name="YButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Y.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="YButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="XButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_31">
+                           <item>
+                            <widget class="QLabel" name="XButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/X.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="XButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="LBButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_23">
+                           <item>
+                            <widget class="QLabel" name="LBButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Bumper.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="LBButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RBButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_38">
+                           <item>
+                            <widget class="QLabel" name="RBButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Bumper.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RBButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="STARTButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_28">
+                           <item>
+                            <widget class="QLabel" name="STARTButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Menu.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="STARTButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="BACKButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_24">
+                           <item>
+                            <widget class="QLabel" name="BACKButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/View.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="BACKButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RIGHTPADButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_37">
+                           <item>
+                            <widget class="QLabel" name="RIGHTPADButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="layoutDirection">
+                              <enum>Qt::LeftToRight</enum>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Click.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RIGHTPADButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="LEFTPADButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_35">
+                           <item>
+                            <widget class="QLabel" name="LEFTPADButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Click.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="LEFTPADButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="HOMEButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_29">
+                           <item>
+                            <widget class="QLabel" name="HOMEButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Home.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="HOMEButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="PADUPButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_25">
+                           <item>
+                            <widget class="QLabel" name="PADUPButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Up.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="PADUPButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="PADDOWNButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_36">
+                           <item>
+                            <widget class="QLabel" name="PADDOWNButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Down.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="PADDOWNButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="PADRIGHTButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_33">
+                           <item>
+                            <widget class="QLabel" name="PADRIGHTButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Right.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="PADRIGHTButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="PADLEFTButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_26">
+                           <item>
+                            <widget class="QLabel" name="PADLEFTButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Left.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="PADLEFTButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>AltitudeHold</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>CameraSwitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FloatingDebris</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>FluidSuction</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Led</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>LeftGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Gain</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>RightGripper</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Stabilize</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RIGHTVERTICALAXISFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_40">
+                           <item>
+                            <widget class="QLabel" name="RIGHTVERTICALAXISLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Up.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RIGHTVERTICALAXISComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Surge</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Heave</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Pitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Roll</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Servo</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Sway</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Yaw</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RIGHTHORIZONTALAXISFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_30">
+                           <item>
+                            <widget class="QLabel" name="RIGHTHORIZONTALAXISLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Right.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RIGHTHORIZONTALAXISComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Sway</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Heave</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Pitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Roll</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Servo</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Surge</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Yaw</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="LEFTVERTICALAXISFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_27">
+                           <item>
+                            <widget class="QLabel" name="LEFTVERTICALAXISLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Up.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="LEFTVERTICALAXISComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Heave</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Pitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Roll</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Servo</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Surge</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Sway</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Yaw</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="LEFTHORIZONTALAXISFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_39">
+                           <item>
+                            <widget class="QLabel" name="LEFTHORIZONTALAXISLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Right.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="LEFTHORIZONTALAXISComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Yaw</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Heave</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Pitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Roll</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Servo</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Surge</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Sway</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_32">
+                           <item>
+                            <widget class="QLabel" name="RTButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Trigger.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Servo</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Heave</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Pitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Roll</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Surge</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Sway</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Yaw</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="LTButtonFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_21">
+                           <item>
+                            <widget class="QLabel" name="LTButtonLabel">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap resource="resources.qrc">:/controllerButtons/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Trigger.svg</pixmap>
+                             </property>
+                             <property name="scaledContents">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="LTButtonComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Servo</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Heave</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Pitch</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Roll</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Surge</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Sway</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Yaw</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>None</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="saveSettingFrame">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_14">
+                 <item>
+                  <widget class="QPushButton" name="saveSettingButton">
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                     <italic>false</italic>
+                     <bold>false</bold>
+                     <underline>false</underline>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	font-size: 20px;
+	border-radius: 5px; 
+	border: 3px solid #FFB86C;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Save Settings</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="footerFrame">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item alignment="Qt::AlignLeft|Qt::AlignBottom">
+        <widget class="QFrame" name="footerVersionFrame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>v1.0</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>733</width>
+           <height>15</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QFrame" name="sizeGripFrame">
+         <property name="minimumSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QSizeGrip{
+	background: transparent;
+	border: none;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
