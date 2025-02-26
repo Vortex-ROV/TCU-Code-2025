@@ -74,3 +74,13 @@ class Readings(Enum):
     PH = 1
     Heading = 2
     Depth = 3
+
+class CameraLabels:
+    MainTopLeft = 0
+    MainTopRight = 1
+    MainBottomLeft = 2
+    MainBottomRight = 3
+    SecondaryTopLeft = 4
+    SecondaryTopRight = 5
+    SecondaryBottomLeft = 6
+    SecondaryBottomRight = 7

@@ -1,0 +1,6 @@
+*venv*
+build
+*.zip
+opencv*
+__pycache__
+src/*egg*

@@ -1,3 +1,5 @@
 from VortexInterfaces.ControllerInterfaces import ControllerInterfaces
 from VortexInterfaces.VortexPilotingInterfaces import VortexPilotingInterfaces
 from VortexInterfaces.CompanionControllerInterface import CompanionControllerInterface
+from VortexInterfaces.CameraManagerInterfaces import CameraManagerInterfaces
+from VortexInterfaces.OAKVidgearClientInterfaces import OAKVidgearClientInterfaces

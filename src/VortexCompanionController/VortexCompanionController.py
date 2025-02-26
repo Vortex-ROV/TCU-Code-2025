@@ -21,17 +21,20 @@ class CompanionController(CompanionControllerInterface):
     
     def getPH(self):
         b = self.socket.receive(1024)
-        if b is not None:
-            b = b.decode().split("\n")
-            x = None
-            try:
-                x = json.loads(b[-2])
-            except:
-                pass
+        try:
+            if b is not None:
+                b = b.decode().split("\n")
+                x = None
+                try:
+                    x = json.loads(b[-2])
+                except:
+                    pass
 
-            if x is not None:
-                self.old_ph = x["ph"]
-                return x["ph"]
+                if x is not None:
+                    self.old_ph = x["ph"]
+                    return x["ph"]
+        except:
+            pass
             
         return self.old_ph
     

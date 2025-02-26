@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>845</height>
+    <width>1914</width>
+    <height>986</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -518,6 +518,12 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
               </property>
               <item>
                <widget class="QFrame" name="homePageStackedWidgetFrame">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
                 <property name="styleSheet">
                  <string notr="true">QFrame{
 	background-color: #44475A;
@@ -546,13 +552,1259 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
                  <property name="bottomMargin">
                   <number>0</number>
                  </property>
-                 <item>
+                 <item alignment="Qt::AlignHCenter">
                   <widget class="QStackedWidget" name="homePageStackedWidget">
                    <property name="currentIndex">
                     <number>0</number>
                    </property>
-                   <widget class="QWidget" name="mainHomePage"/>
-                   <widget class="QWidget" name="secondayHomePage"/>
+                   <widget class="QWidget" name="mainHomePage">
+                    <layout class="QHBoxLayout" name="horizontalLayout_47">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="mainHomePageCamerasFrame">
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_11">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QFrame" name="mainHomePageTopCamerasFrame">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_55">
+                           <property name="spacing">
+                            <number>0</number>
+                           </property>
+                           <property name="leftMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <item>
+                            <widget class="QFrame" name="mainHomePageTopLeftCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_12">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageTopLeftCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_59">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="mainHomePageTopLeftCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageTopLeftCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_63">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="mainHomePageTopLeftCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera1</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="mainHomePageTopRightCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_13">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageTopRightCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_60">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="mainHomePageTopRightCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageTopRightCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_64">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="mainHomePageTopRightCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera2</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="mainHomePageBottomCamerasFrame">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_56">
+                           <property name="spacing">
+                            <number>0</number>
+                           </property>
+                           <property name="leftMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <item>
+                            <widget class="QFrame" name="mainHomePageBottomLeftCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_15">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageBottomLeftCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_62">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="mainHomePageBottomLeftCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageBottomLeftCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_65">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="mainHomePageBottomLeftCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera3</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="mainHomePageBottomRightCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_14">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageBottomRightCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_61">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="mainHomePageBottomRightCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="mainHomePageBottomRightCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_66">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="mainHomePageBottomRightCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera4</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="secondayHomePage">
+                    <layout class="QHBoxLayout" name="horizontalLayout_54">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="secondaryHomePageCamerasFrame">
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_20">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QFrame" name="secondaryHomePageTopCamerasFrame">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_58">
+                           <property name="spacing">
+                            <number>0</number>
+                           </property>
+                           <property name="leftMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <item>
+                            <widget class="QFrame" name="secondaryHomePageTopLeftCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_18">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageTopLeftCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_67">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="secondaryHomePageTopLeftCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageTopLeftCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_71">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="secondaryHomePageTopLeftCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera5</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="secondaryHomePageTopRightCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_19">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageTopRightCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_68">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="secondaryHomePageTopRightCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageTopRightCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_72">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="secondaryHomePageTopRightCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera6</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="secondaryHomePageBottomCamerasFrame">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_57">
+                           <property name="spacing">
+                            <number>0</number>
+                           </property>
+                           <property name="leftMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <item>
+                            <widget class="QFrame" name="secondaryHomePageBottomLeftCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_16">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageBottomLeftCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_69">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="secondaryHomePageBottomLeftCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageBottomLeftCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_73">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="secondaryHomePageBottomLeftCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera7</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="secondaryHomePageBottomRightCamerasFrame">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_17">
+                              <property name="spacing">
+                               <number>0</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>0</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>0</number>
+                              </property>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageBottomRightCameraLabelFrame">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>400</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QFrame{
+	background-color: #282A36;
+}
+</string>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_70">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="secondaryHomePageBottomRightCameraLabel">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>800</width>
+                                     <height>400</height>
+                                    </size>
+                                   </property>
+                                   <property name="text">
+                                    <string/>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QFrame" name="secondaryHomePageBottomRightCamerasIndicators">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>800</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="frameShape">
+                                 <enum>QFrame::StyledPanel</enum>
+                                </property>
+                                <property name="frameShadow">
+                                 <enum>QFrame::Raised</enum>
+                                </property>
+                                <layout class="QHBoxLayout" name="horizontalLayout_74">
+                                 <item alignment="Qt::AlignLeft">
+                                  <widget class="QLabel" name="secondaryHomePageBottomRightCamerasNumberLabel">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>12</pointsize>
+                                     <bold>true</bold>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Camera8</string>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
                   </widget>
                  </item>
                 </layout>
@@ -1852,7 +3104,7 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
            </item>
           </layout>
          </widget>
-         <widget class="QWidget" name="cameraPage">
+         <widget class="QWidget" name="cameraSettingsPage">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -1873,13 +3125,1756 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
             <number>0</number>
            </property>
            <item>
-            <widget class="QFrame" name="cameraPageFrame">
+            <widget class="QFrame" name="cameraSettingsPageFrame">
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
              <property name="frameShadow">
               <enum>QFrame::Raised</enum>
              </property>
+             <layout class="QVBoxLayout" name="verticalLayout_21">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="cameraSettingsCameraMappingFrame">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_76">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QScrollArea" name="cameraSettingsScrollArea">
+                   <property name="styleSheet">
+                    <string notr="true">QScrollArea {
+    border: 1px solid #282A36;
+}
+</string>
+                   </property>
+                   <property name="widgetResizable">
+                    <bool>true</bool>
+                   </property>
+                   <widget class="QWidget" name="scrollAreaWidgetContents_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>0</y>
+                      <width>1789</width>
+                      <height>1258</height>
+                     </rect>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_77">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="cameraSettingsCameraMappingFrameInScrollArea">
+                       <property name="styleSheet">
+                        <string notr="true">QComboBox{ 
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+} 
+
+QComboBox::drop-down { 
+	border: 3px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QComboBox::on {
+border: 3px solid #FFB86C;
+}
+
+QComboBox QListView{
+	border: 3px solid #FFB86C;
+	color: #282A36;
+	background-color: #FFB86C;
+} 
+
+QComboBox QAbstractItemView {
+    border: 2px solid #FFB86C;
+	background-color: #F1FA8C;
+    selection-background-color: #FFB86C;
+    selection-color: #282A36;
+}
+
+QComboBox QListView::item::selected { 
+	border-radius: 5px; 
+	border: 3px solid #FFB86C;
+	color: #282A36;
+	background-color: #FFB86C;
+}</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_22">
+                        <item>
+                         <widget class="QFrame" name="OAKCameraLocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_80">
+                           <item>
+                            <widget class="QLabel" name="OAKCameraLocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>OAKCameraLocation</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="OAKCameraLocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA1LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_78">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA1LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera1Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA1LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA2LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_93">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA2LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera2Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA2LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA3LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_95">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA3LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera3Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA3LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA4LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_83">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA4LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera4Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA4LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA5LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_97">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA5LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera5Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA5LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA6LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_91">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA6LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera6Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA6LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA7LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_85">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA7LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera7Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA7LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA8LocationFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_87">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA8LocationLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera8Location</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="RTSPCAMERA8LocationComboBox">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true"/>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Camera1</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera2</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera3</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera4</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera5</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera6</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera7</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Camera8</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA1SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_79">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA1SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera1Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA1SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA2SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_92">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA2SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera2Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA2SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA3SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_94">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA3SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera3Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA3SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA4SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_82">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA4SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera4Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA4SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA5SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_96">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA5SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera5Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA5SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA6SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_90">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA6SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera6Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA6SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA7SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_84">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA7SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera7Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA7SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="RTSPCAMERA8SourceFrame">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>125</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QFrame{
+	background-color: #44475A;
+}</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_86">
+                           <item>
+                            <widget class="QLabel" name="RTSPCAMERA8SourceLabel">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>100</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>RTSPCamera8Source                   </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="lineEditRTSPCAMERA8SourceText">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>50</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit{
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+}
+
+QLineEdit::hover{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+
+QLineEdit:focus{
+	border: 2px solid #FFB86C;
+	background-color: #FFB86C;
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>None</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="saveCameraSettingFrame">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_98">
+                 <item>
+                  <widget class="QPushButton" name="saveCameraSettingButton">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	font-size: 20px;
+	border-radius: 5px; 
+	border: 3px solid #FFB86C;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Save Settings</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
             </widget>
            </item>
           </layout>
@@ -1966,6 +4961,64 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
                </widget>
               </item>
               <item>
+               <widget class="QFrame" name="settingsPageCameraSettingsFrame">
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+	background-color: #44475A;
+}
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_75">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="cameraSettingsButton">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	image: url(:/mainBodyLeftButtons/feather/camera.svg);
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
                <widget class="QFrame" name="settingsPageGeneralSettingsFrame">
                 <property name="styleSheet">
                  <string notr="true">QFrame{
@@ -2002,6 +5055,12 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                     <bold>true</bold>
+                    </font>
                    </property>
                    <property name="text">
                     <string>General Settings</string>
@@ -2064,7 +5123,7 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
                <number>0</number>
               </property>
               <item>
-               <widget class="QFrame" name="controllerSettingsSolidButtonsFrame">
+               <widget class="QFrame" name="controllerSettingsJoystickMappingFrame">
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -2088,7 +5147,7 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
                   <number>0</number>
                  </property>
                  <item>
-                  <widget class="QScrollArea" name="scrollArea">
+                  <widget class="QScrollArea" name="controllerSettingsScrollArea">
                    <property name="styleSheet">
                     <string notr="true">QScrollArea {
     border: 1px solid #282A36;
@@ -2102,8 +5161,8 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
                     <property name="geometry">
                      <rect>
                       <x>0</x>
-                      <y>-464</y>
-                      <width>675</width>
+                      <y>0</y>
+                      <width>1789</width>
                       <height>2768</height>
                      </rect>
                     </property>
@@ -2124,22 +5183,44 @@ background-image: url(:/mainBodyLeftButtons/feather/settings.svg);
                       <number>0</number>
                      </property>
                      <item>
-                      <widget class="QFrame" name="controllerSettingsSolidButtonsFrameInScrollArea">
+                      <widget class="QFrame" name="controllerSettingsJoystickMappingFrameInScrollArea">
                        <property name="styleSheet">
-                        <string notr="true">QComboBox {
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    color: #2c3e50; /* Text color */
-    font-size: 25px; /* Font size */
+                        <string notr="true">QComboBox{ 
+	border-radius: 5px; 
+	border: 2px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
+} 
+
+QComboBox::drop-down { 
+	border: 3px solid #F1FA8C;
+	color: #282A36;
+	background-color: #F1FA8C;
 }
+
+QComboBox::on {
+border: 3px solid #FFB86C;
+}
+
+QComboBox QListView{
+	border: 3px solid #FFB86C;
+	color: #282A36;
+	background-color: #FFB86C;
+} 
 
 QComboBox QAbstractItemView {
-    border: 1px solid #44475A; 
-    selection-background-color: #44475A;; /* Background color of selected item */
+    border: 2px solid #FFB86C;
+	background-color: #F1FA8C;
+    selection-background-color: #FFB86C;
+    selection-color: #282A36;
 }
 
-
-</string>
+QComboBox QListView::item::selected { 
+	border-radius: 5px; 
+	border: 3px solid #FFB86C;
+	color: #282A36;
+	background-color: #FFB86C;
+}</string>
                        </property>
                        <property name="frameShape">
                         <enum>QFrame::StyledPanel</enum>
@@ -2200,6 +5281,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <property name="editable">
                               <bool>false</bool>
@@ -2312,6 +5399,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <property name="editable">
                               <bool>false</bool>
                              </property>
@@ -2423,6 +5516,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>FloatingDebris</string>
@@ -2530,6 +5629,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -2639,6 +5744,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>FluidSuction</string>
@@ -2746,6 +5857,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -2855,6 +5972,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>Gain</string>
@@ -2962,6 +6085,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -3074,6 +6203,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>None</string>
@@ -3181,6 +6316,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -3290,6 +6431,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>None</string>
@@ -3397,6 +6544,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -3506,6 +6659,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>None</string>
@@ -3613,6 +6772,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -3722,6 +6887,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>None</string>
@@ -3830,6 +7001,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>Surge</string>
@@ -3927,6 +7104,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -4026,6 +7209,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>Heave</string>
@@ -4123,6 +7312,12 @@ QComboBox QAbstractItemView {
                                <width>16777215</width>
                                <height>50</height>
                               </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
                              </property>
                              <item>
                               <property name="text">
@@ -4222,6 +7417,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>Servo</string>
@@ -4320,6 +7521,12 @@ QComboBox QAbstractItemView {
                                <height>50</height>
                               </size>
                              </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>16</pointsize>
+                               <bold>true</bold>
+                              </font>
+                             </property>
                              <item>
                               <property name="text">
                                <string>Servo</string>
@@ -4376,7 +7583,7 @@ QComboBox QAbstractItemView {
                </widget>
               </item>
               <item>
-               <widget class="QFrame" name="saveSettingFrame">
+               <widget class="QFrame" name="saveControllerSettingFrame">
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -4385,7 +7592,7 @@ QComboBox QAbstractItemView {
                 </property>
                 <layout class="QHBoxLayout" name="horizontalLayout_14">
                  <item>
-                  <widget class="QPushButton" name="saveSettingButton">
+                  <widget class="QPushButton" name="saveControllerSettingButton">
                    <property name="font">
                     <font>
                      <pointsize>-1</pointsize>

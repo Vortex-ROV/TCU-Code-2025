@@ -6,8 +6,8 @@ from communication.socket.client import ClientSocket
 import json
 from VortexInterfaces.VortexPilotingInterfaces import VortexPilotingInterfaces
 
-POSITIVE_PWM = 1800
-NEGATIVE_PWM = 1200
+POSITIVE_PWM = 1700
+NEGATIVE_PWM = 1300
 THROTTLE_RC_CHANNEL = 3
 YAW_RC_CHANNEL = 4
 FORWARD_RC_CHANNEL = 5
@@ -15,17 +15,19 @@ LATERAL_RC_CHANNEL = 6
 
 class ROVController:
     def __init__(self):
-        # self.master = mavutil.mavlink_connection("udp:" + "192.168.33.100" + ":" + str(14550), 115200)
+        self.master = mavutil.mavlink_connection("udp:" + "192.168.33.100" + ":" + str(14550), 115200)
         # self.master = mavutil.mavlink_connection("udp:" + "172.23.160.1" + ":" + str(14550), 115200)
         # self.master = mavutil.mavlink_connection("COM6", 115200)
-        # self.master.wait_heartbeat()
+        self.master.wait_heartbeat()
         print("heartbeat detected")
+        # self.client = ClientSocket("172.23.164.204", 4096)
         self.client = ClientSocket("192.168.33.1", 4096)
         self.client.connect()
         self.old_message = ""
         self.yaw = 0
         self.rc_channel_values = [1500, 1500, 1500, 1500, 1500, 1500, 65535, 65535]
         self.old_rc_channel_values = [1500, 1500, 1500, 1500, 1500, 1500, 65535, 65535]
+        self.arm_disarm(True)
 
         self.tools_dict = {
             "led": False,
@@ -63,22 +65,22 @@ class ROVController:
     def set_rc_channels_pwm(self):
         self.rc_channel_values = [int(x) for x in self.rc_channel_values]
         # print("rc channels:", self.rc_channel_values)
-        # self.master.mav.rc_channels_override_send(
-        #     self.master.target_system,
-        #     self.master.target_component,
-        #     *self.rc_channel_values
-        # )
+        self.master.mav.rc_channels_override_send(
+            self.master.target_system,
+            self.master.target_component,
+            *self.rc_channel_values
+        )
 
     def set_servo_pwm(self, servo, pwm):
-        # self.master.mav.command_long_send(
-        #     self.master.target_system,
-        #     self.master.target_component,
-        #     mavutil.mavlink.MAV_CMD_DO_SET_SERVO,
-        #     0,
-        #     servo,
-        #     pwm,
-        #     0, 0, 0, 0, 0
-        # )
+        self.master.mav.command_long_send(
+            self.master.target_system,
+            self.master.target_component,
+            mavutil.mavlink.MAV_CMD_DO_SET_SERVO,
+            0,
+            servo,
+            pwm,
+            0, 0, 0, 0, 0
+        )
         # print("set_servo_pwm", servo, pwm)
         pass
 
@@ -139,15 +141,15 @@ class ROVController:
 
     def servo(self, pwm):
         # print("servo", pwm)
-        self.tools_dict["servo"] = int(pwm * 255.0)
+        self.tools_dict["servo"] = pwm
 
     def arm_disarm(self, on):
+        print("arm_disarm", on)
+        if on:
+            self.master.arducopter_arm()
+        else:
+            self.master.arducopter_disarm()
         pass
-        # print("arm_disarm", on)
-        # if on:
-        #     self.master.arducopter_arm()
-        # else:
-        #     self.master.arducopter_disarm()
             
     def set_alt_hold(self, on):
         print("set_alt_hold", on)
@@ -216,17 +218,17 @@ class ROVController:
         
         if serialized_dict != self.old_message:
             self.old_message = serialized_dict
-            # self.client.send(serialized_dict.encode('utf-8'))
+            self.client.send(serialized_dict.encode('utf-8'))
 
     def post_process(self):
         serialized_dict = json.dumps(self.tools_dict)
 
         if serialized_dict != self.old_message:
-            print(serialized_dict)
+            print("sending", serialized_dict)
             self.old_message = serialized_dict
             self.client.send(serialized_dict.encode('utf-8'))
 
         if self.rc_channel_values != self.old_rc_channel_values:
-            print(self.rc_channel_values)
+            print("sending", self.rc_channel_values)
             self.old_rc_channel_values = self.rc_channel_values
             self.set_rc_channels_pwm()

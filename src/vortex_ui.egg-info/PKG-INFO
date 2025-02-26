@@ -1,4 +1,4 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.1
 Name: vortex_ui
 Version: 1.0.0
 Requires-Dist: pygame==2.6.1
