@@ -1,0 +1,1552 @@
+main.py
+pyproject.toml
+src/VortexCameras/CameraManager.py
+src/VortexCameras/OAKVidgearClient.py
+src/VortexCameras/__init__.py
+src/VortexCameras/__main__.py
+src/VortexCompanionController/VortexCompanionController.py
+src/VortexCompanionController/__init__.py
+src/VortexCompanionController/__main__.py
+src/VortexCompanionController/__pycache__/VortexCompanionController.cpython-311.pyc
+src/VortexCompanionController/__pycache__/__init__.cpython-311.pyc
+src/VortexController/ControllerAdapter.py
+src/VortexController/JoystickHandler.py
+src/VortexController/VortexController.py
+src/VortexController/__init__.py
+src/VortexController/__main__.py
+src/VortexController/__pycache__/ControllerAdapter.cpython-311.pyc
+src/VortexController/__pycache__/JoystickHandler.cpython-311.pyc
+src/VortexController/__pycache__/VortexController.cpython-311.pyc
+src/VortexController/__pycache__/__init__.cpython-311.pyc
+src/VortexInterfaces/CameraManagerInterfaces.py
+src/VortexInterfaces/CompanionControllerInterface.py
+src/VortexInterfaces/ControllerInterfaces.py
+src/VortexInterfaces/OAKVidgearClientInterfaces.py
+src/VortexInterfaces/VortexPilotingInterfaces.py
+src/VortexInterfaces/__init__.py
+src/VortexInterfaces/__main__.py
+src/VortexInterfaces/__pycache__/CompanionControllerInterface.cpython-311.pyc
+src/VortexInterfaces/__pycache__/ControllerInterfaces.cpython-311.pyc
+src/VortexInterfaces/__pycache__/VortexPilotingInterfaces.cpython-311.pyc
+src/VortexInterfaces/__pycache__/__init__.cpython-311.pyc
+src/VortexPilot/PilotAdapter.py
+src/VortexPilot/ROVController.py
+src/VortexPilot/VortexPilot.py
+src/VortexPilot/__init__.py
+src/VortexPilot/__main__.py
+src/VortexPilot/__pycache__/PilotAdapter.cpython-311.pyc
+src/VortexPilot/__pycache__/ROVController.cpython-311.pyc
+src/VortexPilot/__pycache__/VortexPilot.cpython-311.pyc
+src/VortexPilot/__pycache__/__init__.cpython-311.pyc
+src/VortexStation/PyqtCompanionController.py
+src/VortexStation/PyqtCompanionControllerEvents.py
+src/VortexStation/PyqtController.py
+src/VortexStation/PyqtControllerEvents.py
+src/VortexStation/PyqtOAKVidgearClient.py
+src/VortexStation/PyqtOAKVidgearClientEvents.py
+src/VortexStation/PyqtRTSPCamera1.py
+src/VortexStation/PyqtRTSPCamera1Events.py
+src/VortexStation/PyqtRTSPCamera2.py
+src/VortexStation/PyqtRTSPCamera2Events.py
+src/VortexStation/PyqtRTSPCamera3.py
+src/VortexStation/PyqtRTSPCamera3Events.py
+src/VortexStation/PyqtRTSPCamera4.py
+src/VortexStation/PyqtRTSPCamera4Events.py
+src/VortexStation/PyqtRTSPCamera5.py
+src/VortexStation/PyqtRTSPCamera5Events.py
+src/VortexStation/PyqtRTSPCamera6.py
+src/VortexStation/PyqtRTSPCamera6Events.py
+src/VortexStation/PyqtRTSPCamera7.py
+src/VortexStation/PyqtRTSPCamera7Events.py
+src/VortexStation/PyqtRTSPCamera8.py
+src/VortexStation/PyqtRTSPCamera8Events.py
+src/VortexStation/UI_MainWindow.py
+src/VortexStation/VortexPilotProxy.py
+src/VortexStation/VortexStation.py
+src/VortexStation/VortexStationUtils.py
+src/VortexStation/VortexWidgetNamesEnums.py
+src/VortexStation/__init__.py
+src/VortexStation/__main__.py
+src/VortexStation/form.ui
+src/VortexStation/rc_resources.py
+src/VortexStation/resources.qrc
+src/VortexStation/resources_rc.py
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/- A Message from the Creator.txt
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/LICENSE.txt
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/128w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/256w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/512w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/A.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/B.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/D-Pad Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/D-Pad Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/D-Pad Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/D-Pad Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/D-Pad.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Home.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Left Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Menu.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Right Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Share.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/View.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/X.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/Black/SVG/Y.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/128w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/256w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/512w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/A.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/B.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/D-Pad.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Home.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Left Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Menu.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Right Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Share.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/View.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/X.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Full Solid/White/SVG/Y.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/256w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/512w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/A.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/B.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/D-Pad Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/D-Pad Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/D-Pad Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/D-Pad Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/D-Pad.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Home.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Left Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Menu.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Right Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Share.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/View.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/X.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/Black/SVG/Y.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/128w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/256w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/512w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/A.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/B.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/D-Pad Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/D-Pad Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/D-Pad Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/D-Pad Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/D-Pad.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Home.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Left Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Menu.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Right Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Share.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/View.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/X.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Outline/White/SVG/Y.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/128w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/256w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/512w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/A.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/B.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/D-Pad Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/D-Pad Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/D-Pad Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/D-Pad Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/D-Pad.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Home.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Left Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Menu.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Right Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Share.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/View.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/X.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/Black/SVG/Y.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/128w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/256w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/A.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/B.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/D-Pad Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/D-Pad Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/D-Pad Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/D-Pad Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/D-Pad.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Home.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Left Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Menu.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Bumper.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick All.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick Click.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick Left-Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick Left.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick Right.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick Up-Down.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick Up.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Stick.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Right Trigger.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Share.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/View.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/X.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/512w/Y.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/A.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/B.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/D-Pad Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/D-Pad Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/D-Pad Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/D-Pad Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/D-Pad.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Home.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Left Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Menu.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Bumper.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick All.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick Click.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick Left-Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick Left.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick Right.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick Up-Down.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick Up.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Stick.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Right Trigger.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Share.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/View.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/X.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Buttons Solid/White/SVG/Y.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Outline/Controls Outline Black 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Outline/Controls Outline Black SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Outline/Controls Outline White 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Outline/Controls Outline White SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt Inv 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt Inv SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Inv 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Inv SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Outline/Outline Black 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Outline/Outline Black SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Outline/Outline White 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Outline/Outline White SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Solid/Solid Black 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Solid/Solid Black 4k.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Solid/Solid Color 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Solid/Solid Color SVG.svg
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Solid/Solid White 4k.png
+src/VortexStation/Xbox Series Button Icons and Controls/Xbox Series Button Icons and Controls/Controller Images/Solid/Solid White SVG.svg
+src/VortexStation/__pycache__/PyqtCompanionController.cpython-311.pyc
+src/VortexStation/__pycache__/PyqtCompanionControllerEvents.cpython-311.pyc
+src/VortexStation/__pycache__/PyqtController.cpython-311.pyc
+src/VortexStation/__pycache__/PyqtControllerEvents.cpython-311.pyc
+src/VortexStation/__pycache__/UI_MainWindow.cpython-311.pyc
+src/VortexStation/__pycache__/VortexPilotProxy.cpython-311.pyc
+src/VortexStation/__pycache__/VortexStation.cpython-311.pyc
+src/VortexStation/__pycache__/VortexStation.cpython-38.pyc
+src/VortexStation/__pycache__/VortexStationUtils.cpython-311.pyc
+src/VortexStation/__pycache__/VortexWidgetNamesEnums.cpython-311.pyc
+src/VortexStation/__pycache__/__init__.cpython-311.pyc
+src/VortexStation/__pycache__/resources_rc.cpython-311.pyc
+src/VortexStation/feather/activity.svg
+src/VortexStation/feather/airplay.svg
+src/VortexStation/feather/alert-circle.svg
+src/VortexStation/feather/alert-octagon.svg
+src/VortexStation/feather/alert-triangle.svg
+src/VortexStation/feather/align-center.svg
+src/VortexStation/feather/align-justify.svg
+src/VortexStation/feather/align-left.svg
+src/VortexStation/feather/align-right.svg
+src/VortexStation/feather/anchor.svg
+src/VortexStation/feather/aperture.svg
+src/VortexStation/feather/archive.svg
+src/VortexStation/feather/arrow-down-circle.svg
+src/VortexStation/feather/arrow-down-left.svg
+src/VortexStation/feather/arrow-down-right.svg
+src/VortexStation/feather/arrow-down.svg
+src/VortexStation/feather/arrow-left-circle.svg
+src/VortexStation/feather/arrow-left.svg
+src/VortexStation/feather/arrow-right-circle.svg
+src/VortexStation/feather/arrow-right.svg
+src/VortexStation/feather/arrow-up-circle.svg
+src/VortexStation/feather/arrow-up-left.svg
+src/VortexStation/feather/arrow-up-right.svg
+src/VortexStation/feather/arrow-up.svg
+src/VortexStation/feather/at-sign.svg
+src/VortexStation/feather/award.svg
+src/VortexStation/feather/bar-chart-2.svg
+src/VortexStation/feather/bar-chart.svg
+src/VortexStation/feather/battery-charging.svg
+src/VortexStation/feather/battery.svg
+src/VortexStation/feather/bell-off.svg
+src/VortexStation/feather/bell.svg
+src/VortexStation/feather/bluetooth.svg
+src/VortexStation/feather/bold.svg
+src/VortexStation/feather/book-open.svg
+src/VortexStation/feather/book.svg
+src/VortexStation/feather/bookmark.svg
+src/VortexStation/feather/box.svg
+src/VortexStation/feather/briefcase.svg
+src/VortexStation/feather/calendar.svg
+src/VortexStation/feather/camera-off.svg
+src/VortexStation/feather/camera.svg
+src/VortexStation/feather/cast.svg
+src/VortexStation/feather/check-circle.svg
+src/VortexStation/feather/check-square.svg
+src/VortexStation/feather/check.svg
+src/VortexStation/feather/chevron-down.svg
+src/VortexStation/feather/chevron-left.svg
+src/VortexStation/feather/chevron-right.svg
+src/VortexStation/feather/chevron-up.svg
+src/VortexStation/feather/chevrons-down.svg
+src/VortexStation/feather/chevrons-left.svg
+src/VortexStation/feather/chevrons-right.svg
+src/VortexStation/feather/chevrons-up.svg
+src/VortexStation/feather/chrome.svg
+src/VortexStation/feather/circle.svg
+src/VortexStation/feather/clipboard.svg
+src/VortexStation/feather/clock.svg
+src/VortexStation/feather/cloud-drizzle.svg
+src/VortexStation/feather/cloud-lightning.svg
+src/VortexStation/feather/cloud-off.svg
+src/VortexStation/feather/cloud-rain.svg
+src/VortexStation/feather/cloud-snow.svg
+src/VortexStation/feather/cloud.svg
+src/VortexStation/feather/code.svg
+src/VortexStation/feather/codepen.svg
+src/VortexStation/feather/codesandbox.svg
+src/VortexStation/feather/coffee.svg
+src/VortexStation/feather/columns.svg
+src/VortexStation/feather/command.svg
+src/VortexStation/feather/compass.svg
+src/VortexStation/feather/copy.svg
+src/VortexStation/feather/corner-down-left.svg
+src/VortexStation/feather/corner-down-right.svg
+src/VortexStation/feather/corner-left-down.svg
+src/VortexStation/feather/corner-left-up.svg
+src/VortexStation/feather/corner-right-down.svg
+src/VortexStation/feather/corner-right-up.svg
+src/VortexStation/feather/corner-up-left.svg
+src/VortexStation/feather/corner-up-right.svg
+src/VortexStation/feather/cpu.svg
+src/VortexStation/feather/credit-card.svg
+src/VortexStation/feather/crop.svg
+src/VortexStation/feather/crosshair.svg
+src/VortexStation/feather/database.svg
+src/VortexStation/feather/delete.svg
+src/VortexStation/feather/disc.svg
+src/VortexStation/feather/divide-circle.svg
+src/VortexStation/feather/divide-square.svg
+src/VortexStation/feather/divide.svg
+src/VortexStation/feather/dollar-sign.svg
+src/VortexStation/feather/download-cloud.svg
+src/VortexStation/feather/download.svg
+src/VortexStation/feather/dribbble.svg
+src/VortexStation/feather/droplet.svg
+src/VortexStation/feather/edit-2.svg
+src/VortexStation/feather/edit-3.svg
+src/VortexStation/feather/edit.svg
+src/VortexStation/feather/external-link.svg
+src/VortexStation/feather/eye-off.svg
+src/VortexStation/feather/eye.svg
+src/VortexStation/feather/facebook.svg
+src/VortexStation/feather/fast-forward.svg
+src/VortexStation/feather/feather.svg
+src/VortexStation/feather/figma.svg
+src/VortexStation/feather/file-minus.svg
+src/VortexStation/feather/file-plus.svg
+src/VortexStation/feather/file-text.svg
+src/VortexStation/feather/file.svg
+src/VortexStation/feather/film.svg
+src/VortexStation/feather/filter.svg
+src/VortexStation/feather/flag.svg
+src/VortexStation/feather/folder-minus.svg
+src/VortexStation/feather/folder-plus.svg
+src/VortexStation/feather/folder.svg
+src/VortexStation/feather/framer.svg
+src/VortexStation/feather/frown.svg
+src/VortexStation/feather/gift.svg
+src/VortexStation/feather/git-branch.svg
+src/VortexStation/feather/git-commit.svg
+src/VortexStation/feather/git-merge.svg
+src/VortexStation/feather/git-pull-request.svg
+src/VortexStation/feather/github.svg
+src/VortexStation/feather/gitlab.svg
+src/VortexStation/feather/globe.svg
+src/VortexStation/feather/grid.svg
+src/VortexStation/feather/hard-drive.svg
+src/VortexStation/feather/hash.svg
+src/VortexStation/feather/headphones.svg
+src/VortexStation/feather/heart.svg
+src/VortexStation/feather/help-circle.svg
+src/VortexStation/feather/hexagon.svg
+src/VortexStation/feather/home.svg
+src/VortexStation/feather/image.svg
+src/VortexStation/feather/inbox.svg
+src/VortexStation/feather/info.svg
+src/VortexStation/feather/instagram.svg
+src/VortexStation/feather/italic.svg
+src/VortexStation/feather/key.svg
+src/VortexStation/feather/layers.svg
+src/VortexStation/feather/layout.svg
+src/VortexStation/feather/life-buoy.svg
+src/VortexStation/feather/link-2.svg
+src/VortexStation/feather/link.svg
+src/VortexStation/feather/linkedin.svg
+src/VortexStation/feather/list.svg
+src/VortexStation/feather/loader.svg
+src/VortexStation/feather/lock.svg
+src/VortexStation/feather/log-in.svg
+src/VortexStation/feather/log-out.svg
+src/VortexStation/feather/mail.svg
+src/VortexStation/feather/map-pin.svg
+src/VortexStation/feather/map.svg
+src/VortexStation/feather/maximize-2.svg
+src/VortexStation/feather/maximize.svg
+src/VortexStation/feather/meh.svg
+src/VortexStation/feather/menu.svg
+src/VortexStation/feather/message-circle.svg
+src/VortexStation/feather/message-square.svg
+src/VortexStation/feather/mic-off.svg
+src/VortexStation/feather/mic.svg
+src/VortexStation/feather/minimize-2.svg
+src/VortexStation/feather/minimize.svg
+src/VortexStation/feather/minus-circle.svg
+src/VortexStation/feather/minus-square.svg
+src/VortexStation/feather/minus.svg
+src/VortexStation/feather/monitor.svg
+src/VortexStation/feather/moon.svg
+src/VortexStation/feather/more-horizontal.svg
+src/VortexStation/feather/more-vertical.svg
+src/VortexStation/feather/mouse-pointer.svg
+src/VortexStation/feather/move.svg
+src/VortexStation/feather/music.svg
+src/VortexStation/feather/navigation-2.svg
+src/VortexStation/feather/navigation.svg
+src/VortexStation/feather/octagon.svg
+src/VortexStation/feather/package.svg
+src/VortexStation/feather/paperclip.svg
+src/VortexStation/feather/pause-circle.svg
+src/VortexStation/feather/pause.svg
+src/VortexStation/feather/pen-tool.svg
+src/VortexStation/feather/percent.svg
+src/VortexStation/feather/phone-call.svg
+src/VortexStation/feather/phone-forwarded.svg
+src/VortexStation/feather/phone-incoming.svg
+src/VortexStation/feather/phone-missed.svg
+src/VortexStation/feather/phone-off.svg
+src/VortexStation/feather/phone-outgoing.svg
+src/VortexStation/feather/phone.svg
+src/VortexStation/feather/pie-chart.svg
+src/VortexStation/feather/play-circle.svg
+src/VortexStation/feather/play.svg
+src/VortexStation/feather/plus-circle.svg
+src/VortexStation/feather/plus-square.svg
+src/VortexStation/feather/plus.svg
+src/VortexStation/feather/pocket.svg
+src/VortexStation/feather/power.svg
+src/VortexStation/feather/printer.svg
+src/VortexStation/feather/radio.svg
+src/VortexStation/feather/refresh-ccw.svg
+src/VortexStation/feather/refresh-cw.svg
+src/VortexStation/feather/repeat.svg
+src/VortexStation/feather/rewind.svg
+src/VortexStation/feather/rotate-ccw.svg
+src/VortexStation/feather/rotate-cw.svg
+src/VortexStation/feather/rss.svg
+src/VortexStation/feather/save.svg
+src/VortexStation/feather/scissors.svg
+src/VortexStation/feather/search.svg
+src/VortexStation/feather/send.svg
+src/VortexStation/feather/server.svg
+src/VortexStation/feather/settings.svg
+src/VortexStation/feather/share-2.svg
+src/VortexStation/feather/share.svg
+src/VortexStation/feather/shield-off.svg
+src/VortexStation/feather/shield.svg
+src/VortexStation/feather/shopping-bag.svg
+src/VortexStation/feather/shopping-cart.svg
+src/VortexStation/feather/shuffle.svg
+src/VortexStation/feather/sidebar.svg
+src/VortexStation/feather/skip-back.svg
+src/VortexStation/feather/skip-forward.svg
+src/VortexStation/feather/slack.svg
+src/VortexStation/feather/slash.svg
+src/VortexStation/feather/sliders.svg
+src/VortexStation/feather/smartphone.svg
+src/VortexStation/feather/smile.svg
+src/VortexStation/feather/speaker.svg
+src/VortexStation/feather/square.svg
+src/VortexStation/feather/star.svg
+src/VortexStation/feather/stop-circle.svg
+src/VortexStation/feather/sun.svg
+src/VortexStation/feather/sunrise.svg
+src/VortexStation/feather/sunset.svg
+src/VortexStation/feather/table.svg
+src/VortexStation/feather/tablet.svg
+src/VortexStation/feather/tag.svg
+src/VortexStation/feather/target.svg
+src/VortexStation/feather/terminal.svg
+src/VortexStation/feather/thermometer.svg
+src/VortexStation/feather/thumbs-down.svg
+src/VortexStation/feather/thumbs-up.svg
+src/VortexStation/feather/toggle-left.svg
+src/VortexStation/feather/toggle-right.svg
+src/VortexStation/feather/tool.svg
+src/VortexStation/feather/trash-2.svg
+src/VortexStation/feather/trash.svg
+src/VortexStation/feather/trello.svg
+src/VortexStation/feather/trending-down.svg
+src/VortexStation/feather/trending-up.svg
+src/VortexStation/feather/triangle.svg
+src/VortexStation/feather/truck.svg
+src/VortexStation/feather/tv.svg
+src/VortexStation/feather/twitch.svg
+src/VortexStation/feather/twitter.svg
+src/VortexStation/feather/type.svg
+src/VortexStation/feather/umbrella.svg
+src/VortexStation/feather/underline.svg
+src/VortexStation/feather/unlock.svg
+src/VortexStation/feather/upload-cloud.svg
+src/VortexStation/feather/upload.svg
+src/VortexStation/feather/user-check.svg
+src/VortexStation/feather/user-minus.svg
+src/VortexStation/feather/user-plus.svg
+src/VortexStation/feather/user-x.svg
+src/VortexStation/feather/user.svg
+src/VortexStation/feather/users.svg
+src/VortexStation/feather/video-off.svg
+src/VortexStation/feather/video.svg
+src/VortexStation/feather/voicemail.svg
+src/VortexStation/feather/volume-1.svg
+src/VortexStation/feather/volume-2.svg
+src/VortexStation/feather/volume-x.svg
+src/VortexStation/feather/volume.svg
+src/VortexStation/feather/watch.svg
+src/VortexStation/feather/wifi-off.svg
+src/VortexStation/feather/wifi.svg
+src/VortexStation/feather/wind.svg
+src/VortexStation/feather/x-circle.svg
+src/VortexStation/feather/x-octagon.svg
+src/VortexStation/feather/x-square.svg
+src/VortexStation/feather/x.svg
+src/VortexStation/feather/youtube.svg
+src/VortexStation/feather/zap-off.svg
+src/VortexStation/feather/zap.svg
+src/VortexStation/feather/zoom-in.svg
+src/VortexStation/feather/zoom-out.svg
+src/VortexStation/feather_24px/activity.svg
+src/VortexStation/feather_24px/airplay.svg
+src/VortexStation/feather_24px/alert-circle.svg
+src/VortexStation/feather_24px/alert-octagon.svg
+src/VortexStation/feather_24px/alert-triangle.svg
+src/VortexStation/feather_24px/align-center.svg
+src/VortexStation/feather_24px/align-justify.svg
+src/VortexStation/feather_24px/align-left.svg
+src/VortexStation/feather_24px/align-right.svg
+src/VortexStation/feather_24px/anchor.svg
+src/VortexStation/feather_24px/aperture.svg
+src/VortexStation/feather_24px/archive.svg
+src/VortexStation/feather_24px/arrow-down-circle.svg
+src/VortexStation/feather_24px/arrow-down-left.svg
+src/VortexStation/feather_24px/arrow-down-right.svg
+src/VortexStation/feather_24px/arrow-down.svg
+src/VortexStation/feather_24px/arrow-left-circle.svg
+src/VortexStation/feather_24px/arrow-left.svg
+src/VortexStation/feather_24px/arrow-right-circle.svg
+src/VortexStation/feather_24px/arrow-right.svg
+src/VortexStation/feather_24px/arrow-up-circle.svg
+src/VortexStation/feather_24px/arrow-up-left.svg
+src/VortexStation/feather_24px/arrow-up-right.svg
+src/VortexStation/feather_24px/arrow-up.svg
+src/VortexStation/feather_24px/at-sign.svg
+src/VortexStation/feather_24px/award.svg
+src/VortexStation/feather_24px/bar-chart-2.svg
+src/VortexStation/feather_24px/bar-chart.svg
+src/VortexStation/feather_24px/battery-charging.svg
+src/VortexStation/feather_24px/battery.svg
+src/VortexStation/feather_24px/bell-off.svg
+src/VortexStation/feather_24px/bell.svg
+src/VortexStation/feather_24px/bluetooth.svg
+src/VortexStation/feather_24px/bold.svg
+src/VortexStation/feather_24px/book-open.svg
+src/VortexStation/feather_24px/book.svg
+src/VortexStation/feather_24px/bookmark.svg
+src/VortexStation/feather_24px/box.svg
+src/VortexStation/feather_24px/briefcase.svg
+src/VortexStation/feather_24px/calendar.svg
+src/VortexStation/feather_24px/camera-off.svg
+src/VortexStation/feather_24px/camera.svg
+src/VortexStation/feather_24px/cast.svg
+src/VortexStation/feather_24px/check-circle.svg
+src/VortexStation/feather_24px/check-square.svg
+src/VortexStation/feather_24px/check.svg
+src/VortexStation/feather_24px/chevron-down.svg
+src/VortexStation/feather_24px/chevron-left.svg
+src/VortexStation/feather_24px/chevron-right.svg
+src/VortexStation/feather_24px/chevron-up.svg
+src/VortexStation/feather_24px/chevrons-down.svg
+src/VortexStation/feather_24px/chevrons-left.svg
+src/VortexStation/feather_24px/chevrons-right.svg
+src/VortexStation/feather_24px/chevrons-up.svg
+src/VortexStation/feather_24px/chrome.svg
+src/VortexStation/feather_24px/circle.svg
+src/VortexStation/feather_24px/clipboard.svg
+src/VortexStation/feather_24px/clock.svg
+src/VortexStation/feather_24px/cloud-drizzle.svg
+src/VortexStation/feather_24px/cloud-lightning.svg
+src/VortexStation/feather_24px/cloud-off.svg
+src/VortexStation/feather_24px/cloud-rain.svg
+src/VortexStation/feather_24px/cloud-snow.svg
+src/VortexStation/feather_24px/cloud.svg
+src/VortexStation/feather_24px/code.svg
+src/VortexStation/feather_24px/codepen.svg
+src/VortexStation/feather_24px/codesandbox.svg
+src/VortexStation/feather_24px/coffee.svg
+src/VortexStation/feather_24px/columns.svg
+src/VortexStation/feather_24px/command.svg
+src/VortexStation/feather_24px/compass.svg
+src/VortexStation/feather_24px/copy.svg
+src/VortexStation/feather_24px/corner-down-left.svg
+src/VortexStation/feather_24px/corner-down-right.svg
+src/VortexStation/feather_24px/corner-left-down.svg
+src/VortexStation/feather_24px/corner-left-up.svg
+src/VortexStation/feather_24px/corner-right-down.svg
+src/VortexStation/feather_24px/corner-right-up.svg
+src/VortexStation/feather_24px/corner-up-left.svg
+src/VortexStation/feather_24px/corner-up-right.svg
+src/VortexStation/feather_24px/cpu.svg
+src/VortexStation/feather_24px/credit-card.svg
+src/VortexStation/feather_24px/crop.svg
+src/VortexStation/feather_24px/crosshair.svg
+src/VortexStation/feather_24px/database.svg
+src/VortexStation/feather_24px/delete.svg
+src/VortexStation/feather_24px/disc.svg
+src/VortexStation/feather_24px/divide-circle.svg
+src/VortexStation/feather_24px/divide-square.svg
+src/VortexStation/feather_24px/divide.svg
+src/VortexStation/feather_24px/dollar-sign.svg
+src/VortexStation/feather_24px/download-cloud.svg
+src/VortexStation/feather_24px/download.svg
+src/VortexStation/feather_24px/dribbble.svg
+src/VortexStation/feather_24px/droplet.svg
+src/VortexStation/feather_24px/edit-2.svg
+src/VortexStation/feather_24px/edit-3.svg
+src/VortexStation/feather_24px/edit.svg
+src/VortexStation/feather_24px/external-link.svg
+src/VortexStation/feather_24px/eye-off.svg
+src/VortexStation/feather_24px/eye.svg
+src/VortexStation/feather_24px/facebook.svg
+src/VortexStation/feather_24px/fast-forward.svg
+src/VortexStation/feather_24px/feather.svg
+src/VortexStation/feather_24px/figma.svg
+src/VortexStation/feather_24px/file-minus.svg
+src/VortexStation/feather_24px/file-plus.svg
+src/VortexStation/feather_24px/file-text.svg
+src/VortexStation/feather_24px/file.svg
+src/VortexStation/feather_24px/film.svg
+src/VortexStation/feather_24px/filter.svg
+src/VortexStation/feather_24px/flag.svg
+src/VortexStation/feather_24px/folder-minus.svg
+src/VortexStation/feather_24px/folder-plus.svg
+src/VortexStation/feather_24px/folder.svg
+src/VortexStation/feather_24px/framer.svg
+src/VortexStation/feather_24px/frown.svg
+src/VortexStation/feather_24px/gift.svg
+src/VortexStation/feather_24px/git-branch.svg
+src/VortexStation/feather_24px/git-commit.svg
+src/VortexStation/feather_24px/git-merge.svg
+src/VortexStation/feather_24px/git-pull-request.svg
+src/VortexStation/feather_24px/github.svg
+src/VortexStation/feather_24px/gitlab.svg
+src/VortexStation/feather_24px/globe.svg
+src/VortexStation/feather_24px/grid.svg
+src/VortexStation/feather_24px/hard-drive.svg
+src/VortexStation/feather_24px/hash.svg
+src/VortexStation/feather_24px/headphones.svg
+src/VortexStation/feather_24px/heart.svg
+src/VortexStation/feather_24px/help-circle.svg
+src/VortexStation/feather_24px/hexagon.svg
+src/VortexStation/feather_24px/home.svg
+src/VortexStation/feather_24px/image.svg
+src/VortexStation/feather_24px/inbox.svg
+src/VortexStation/feather_24px/info.svg
+src/VortexStation/feather_24px/instagram.svg
+src/VortexStation/feather_24px/italic.svg
+src/VortexStation/feather_24px/key.svg
+src/VortexStation/feather_24px/layers.svg
+src/VortexStation/feather_24px/layout.svg
+src/VortexStation/feather_24px/life-buoy.svg
+src/VortexStation/feather_24px/link-2.svg
+src/VortexStation/feather_24px/link.svg
+src/VortexStation/feather_24px/linkedin.svg
+src/VortexStation/feather_24px/list.svg
+src/VortexStation/feather_24px/loader.svg
+src/VortexStation/feather_24px/lock.svg
+src/VortexStation/feather_24px/log-in.svg
+src/VortexStation/feather_24px/log-out.svg
+src/VortexStation/feather_24px/mail.svg
+src/VortexStation/feather_24px/map-pin.svg
+src/VortexStation/feather_24px/map.svg
+src/VortexStation/feather_24px/maximize-2.svg
+src/VortexStation/feather_24px/maximize.svg
+src/VortexStation/feather_24px/meh.svg
+src/VortexStation/feather_24px/menu.svg
+src/VortexStation/feather_24px/message-circle.svg
+src/VortexStation/feather_24px/message-square.svg
+src/VortexStation/feather_24px/mic-off.svg
+src/VortexStation/feather_24px/mic.svg
+src/VortexStation/feather_24px/minimize-2.svg
+src/VortexStation/feather_24px/minimize.svg
+src/VortexStation/feather_24px/minus-circle.svg
+src/VortexStation/feather_24px/minus-square.svg
+src/VortexStation/feather_24px/minus.svg
+src/VortexStation/feather_24px/monitor.svg
+src/VortexStation/feather_24px/moon.svg
+src/VortexStation/feather_24px/more-horizontal.svg
+src/VortexStation/feather_24px/more-vertical.svg
+src/VortexStation/feather_24px/mouse-pointer.svg
+src/VortexStation/feather_24px/move.svg
+src/VortexStation/feather_24px/music.svg
+src/VortexStation/feather_24px/navigation-2.svg
+src/VortexStation/feather_24px/navigation.svg
+src/VortexStation/feather_24px/octagon.svg
+src/VortexStation/feather_24px/package.svg
+src/VortexStation/feather_24px/paperclip.svg
+src/VortexStation/feather_24px/pause-circle.svg
+src/VortexStation/feather_24px/pause.svg
+src/VortexStation/feather_24px/pen-tool.svg
+src/VortexStation/feather_24px/percent.svg
+src/VortexStation/feather_24px/phone-call.svg
+src/VortexStation/feather_24px/phone-forwarded.svg
+src/VortexStation/feather_24px/phone-incoming.svg
+src/VortexStation/feather_24px/phone-missed.svg
+src/VortexStation/feather_24px/phone-off.svg
+src/VortexStation/feather_24px/phone-outgoing.svg
+src/VortexStation/feather_24px/phone.svg
+src/VortexStation/feather_24px/pie-chart.svg
+src/VortexStation/feather_24px/play-circle.svg
+src/VortexStation/feather_24px/play.svg
+src/VortexStation/feather_24px/plus-circle.svg
+src/VortexStation/feather_24px/plus-square.svg
+src/VortexStation/feather_24px/plus.svg
+src/VortexStation/feather_24px/pocket.svg
+src/VortexStation/feather_24px/power.svg
+src/VortexStation/feather_24px/printer.svg
+src/VortexStation/feather_24px/radio.svg
+src/VortexStation/feather_24px/refresh-ccw.svg
+src/VortexStation/feather_24px/refresh-cw.svg
+src/VortexStation/feather_24px/repeat.svg
+src/VortexStation/feather_24px/rewind.svg
+src/VortexStation/feather_24px/rotate-ccw.svg
+src/VortexStation/feather_24px/rotate-cw.svg
+src/VortexStation/feather_24px/rss.svg
+src/VortexStation/feather_24px/save.svg
+src/VortexStation/feather_24px/scissors.svg
+src/VortexStation/feather_24px/search.svg
+src/VortexStation/feather_24px/send.svg
+src/VortexStation/feather_24px/server.svg
+src/VortexStation/feather_24px/settings.svg
+src/VortexStation/feather_24px/share-2.svg
+src/VortexStation/feather_24px/share.svg
+src/VortexStation/feather_24px/shield-off.svg
+src/VortexStation/feather_24px/shield.svg
+src/VortexStation/feather_24px/shopping-bag.svg
+src/VortexStation/feather_24px/shopping-cart.svg
+src/VortexStation/feather_24px/shuffle.svg
+src/VortexStation/feather_24px/sidebar.svg
+src/VortexStation/feather_24px/skip-back.svg
+src/VortexStation/feather_24px/skip-forward.svg
+src/VortexStation/feather_24px/slack.svg
+src/VortexStation/feather_24px/slash.svg
+src/VortexStation/feather_24px/sliders.svg
+src/VortexStation/feather_24px/smartphone.svg
+src/VortexStation/feather_24px/smile.svg
+src/VortexStation/feather_24px/speaker.svg
+src/VortexStation/feather_24px/square.svg
+src/VortexStation/feather_24px/star.svg
+src/VortexStation/feather_24px/stop-circle.svg
+src/VortexStation/feather_24px/sun.svg
+src/VortexStation/feather_24px/sunrise.svg
+src/VortexStation/feather_24px/sunset.svg
+src/VortexStation/feather_24px/table.svg
+src/VortexStation/feather_24px/tablet.svg
+src/VortexStation/feather_24px/tag.svg
+src/VortexStation/feather_24px/target.svg
+src/VortexStation/feather_24px/terminal.svg
+src/VortexStation/feather_24px/thermometer.svg
+src/VortexStation/feather_24px/thumbs-down.svg
+src/VortexStation/feather_24px/thumbs-up.svg
+src/VortexStation/feather_24px/toggle-left.svg
+src/VortexStation/feather_24px/toggle-right.svg
+src/VortexStation/feather_24px/tool.svg
+src/VortexStation/feather_24px/trash-2.svg
+src/VortexStation/feather_24px/trash.svg
+src/VortexStation/feather_24px/trello.svg
+src/VortexStation/feather_24px/trending-down.svg
+src/VortexStation/feather_24px/trending-up.svg
+src/VortexStation/feather_24px/triangle.svg
+src/VortexStation/feather_24px/truck.svg
+src/VortexStation/feather_24px/tv.svg
+src/VortexStation/feather_24px/twitch.svg
+src/VortexStation/feather_24px/twitter.svg
+src/VortexStation/feather_24px/type.svg
+src/VortexStation/feather_24px/umbrella.svg
+src/VortexStation/feather_24px/underline.svg
+src/VortexStation/feather_24px/unlock.svg
+src/VortexStation/feather_24px/upload-cloud.svg
+src/VortexStation/feather_24px/upload.svg
+src/VortexStation/feather_24px/user-check.svg
+src/VortexStation/feather_24px/user-minus.svg
+src/VortexStation/feather_24px/user-plus.svg
+src/VortexStation/feather_24px/user-x.svg
+src/VortexStation/feather_24px/user.svg
+src/VortexStation/feather_24px/users.svg
+src/VortexStation/feather_24px/video-off.svg
+src/VortexStation/feather_24px/video.svg
+src/VortexStation/feather_24px/voicemail.svg
+src/VortexStation/feather_24px/volume-1.svg
+src/VortexStation/feather_24px/volume-2.svg
+src/VortexStation/feather_24px/volume-x.svg
+src/VortexStation/feather_24px/volume.svg
+src/VortexStation/feather_24px/watch.svg
+src/VortexStation/feather_24px/wifi-off.svg
+src/VortexStation/feather_24px/wifi.svg
+src/VortexStation/feather_24px/wind.svg
+src/VortexStation/feather_24px/x-circle.svg
+src/VortexStation/feather_24px/x-octagon.svg
+src/VortexStation/feather_24px/x-square.svg
+src/VortexStation/feather_24px/x.svg
+src/VortexStation/feather_24px/youtube.svg
+src/VortexStation/feather_24px/zap-off.svg
+src/VortexStation/feather_24px/zap.svg
+src/VortexStation/feather_24px/zoom-in.svg
+src/VortexStation/feather_24px/zoom-out.svg
+src/communication/README.md
+src/communication/__init__.py
+src/communication/link.py
+src/communication/messages.py
+src/communication/__pycache__/__init__.cpython-310.pyc
+src/communication/__pycache__/__init__.cpython-311.pyc
+src/communication/__pycache__/link.cpython-310.pyc
+src/communication/__pycache__/link.cpython-311.pyc
+src/communication/__pycache__/messages.cpython-310.pyc
+src/communication/__pycache__/messages.cpython-311.pyc
+src/communication/pixhawk/__init__.py
+src/communication/pixhawk/pixhawk.py
+src/communication/pixhawk/sensors.py
+src/communication/pixhawk/__pycache__/__init__.cpython-310.pyc
+src/communication/pixhawk/__pycache__/__init__.cpython-311.pyc
+src/communication/pixhawk/__pycache__/pixhawk.cpython-310.pyc
+src/communication/pixhawk/__pycache__/pixhawk.cpython-311.pyc
+src/communication/pixhawk/__pycache__/sensors.cpython-310.pyc
+src/communication/pixhawk/__pycache__/sensors.cpython-311.pyc
+src/communication/socket/client.py
+src/communication/socket/server.py
+src/communication/socket/__pycache__/client.cpython-310.pyc
+src/communication/socket/__pycache__/client.cpython-311.pyc
+src/vortex_ui.egg-info/PKG-INFO
+src/vortex_ui.egg-info/SOURCES.txt
+src/vortex_ui.egg-info/dependency_links.txt
+src/vortex_ui.egg-info/entry_points.txt
+src/vortex_ui.egg-info/requires.txt
+src/vortex_ui.egg-info/top_level.txt

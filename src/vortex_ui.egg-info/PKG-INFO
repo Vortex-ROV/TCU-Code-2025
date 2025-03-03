@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vortex_ui
+Version: 1.0.0
+Requires-Dist: pygame==2.6.1
+Requires-Dist: PyQt5==5.15.11
+Requires-Dist: PyQt5-Qt5==5.15.2
+Requires-Dist: PyQt5-sip==12.15.0
